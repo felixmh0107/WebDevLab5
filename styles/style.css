@@ -1,0 +1,100 @@
+main {
+    margin-top: 40px;
+}
+
+h2 {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header .banner img {
+    width: 140px;
+    height: 90px;
+}
+
+header .banner{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex { 
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.page-home .flex #first-title {
+    background-color: #a4d1d0;
+    border: 1px solid;
+    border-color: #a4d1d0;
+    border-style: solid;
+}
+
+.page-home .flex #second-title {
+    border: 1px solid;
+    border-top-color: #a4d1d0;
+    border-left-color: black;
+    border-right-color: black;
+    border-bottom-color: black;
+}
+
+.contact-page .flex #first-title {
+    border-color: #a4d1d0;
+    border: 1px solid;
+    border-left-color: #a4d1d0;
+    border-right-color: #a4d1d0;
+    border-top-color: #a4d1d0;
+    border-bottom-color: #a4d1d0;
+}
+
+.contact-page .flex #second-title {
+    background-color: #a4d1d0;
+    border-color: #a4d1d0;
+    border: 1px solid;
+    border-top-color: #a4d1d0;
+    border-right-color: #a4d1d0;
+    border-left-color: #a4d1d0;
+    border-bottom-color: #a4d1d0;
+}
+
+form div {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+form div label {
+    gap: 200px;
+}
+
+label {
+    width: 10%;
+}
+
+input, textarea {
+    width: 200px;
+}
+
+button {
+    background-color: #E0E0E0;
+    width: 100px;
+    height: 25px;
+    border-color: black;
+}
+
+footer {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
